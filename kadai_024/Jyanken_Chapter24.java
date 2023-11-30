@@ -64,7 +64,7 @@ public class Jyanken_Chapter24 {
 		jyankenPlay.put("s", "チョキ");
 		jyankenPlay.put("p", "パー");
 
-		System.out.println("自分の手は" + jyankenPlay.get(mine) + ",対戦相手の手は" + jyankenPlay.get(this.com));
+		System.out.println("自分の手は" + jyankenPlay.get(mine) + ",対戦相手の手は" + jyankenPlay.get(com));
 
 		if (mine.equals(com)) {
 			System.out.println("あいこです");
